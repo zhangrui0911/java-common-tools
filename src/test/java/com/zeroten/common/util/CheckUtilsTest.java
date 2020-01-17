@@ -20,5 +20,7 @@ public class CheckUtilsTest {
         String[] strs1 = {"a","b","c",""};
         String[] strs2 = new String[5];
         Assert.assertEquals(CheckUtils.isEmpty(strs1), false);
+
+        
     }
 }
